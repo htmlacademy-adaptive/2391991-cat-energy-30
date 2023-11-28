@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Андрей Пятков](https://up.htmlacademy.ru/adaptive/30/user/2391991).
-* Наставник: `Неизвестно`.
+* Студент: [Андрей Пятков](https://htmlacademy.ru//profile/id2391991).
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
 
 ---
 
