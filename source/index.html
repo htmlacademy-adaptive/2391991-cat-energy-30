@@ -11,9 +11,18 @@
 
 <body class="page__body">
   <header class="main-header">
-    <img class="main-header__logo" src="images/logo/logo.png" width="33" height="38" alt="Логотип сайта Cat Energy">
     <a class="main-header__link" href="index.html" aria-current="page">
-      <img class="main-header__logo-text" src="images/logo/logo-text.png" width="101" height="18" alt="Cat Energy">
+      <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo/logo-desctop.svg" width="70"
+          height="59">
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo/logo-tablet.svg" width="60"
+          height="50">
+        <img class="main-header__logo" src="images/logo/logo-mobile.svg" width="33" height="38"
+          alt="Логотип сайта Cat Energy">
+      </picture>
+      <picture>
+        <img class="main-header__logo-text" src="images/logo/logo-text.svg" width="101" height="18" alt="Cat Energy">
+      </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
@@ -39,8 +48,14 @@
     <section class="hero">
       <h1 class="hero-title hero-title--page-title">Функциональное питание для котов</h1>
       <p class="hero-description hero-description--page-description">Занялся собой? Займись котом!</p>
-      <img class="hero__image" src="images/hero-image.png" width="280" height="270"
-        alt="Еда для котов со вкусом курицы">
+      <picture>
+        <source type="image/png" media="(min-width: 1440px)"
+          srcset="images/hero-image-desctop@1x.png 1x, images/hero-image-desctop@2x.png 2x" width="552" height="499">
+        <source type="image/png" media="(min-width: 768px)"
+          srcset="images/hero-image-tablet@1x.png 1x, images/hero-image-tablet@2x.png 2x" width="709" height="609">
+        <img class="hero__image" src="images/hero-image-mobail@1x.png" srcset="images/hero-image-mobail@2x.png 2x"
+          width="280" height="270" alt="Еда для котов со вкусом курицы">
+      </picture>
       <a class="hero__button button" href="form.html">Подобрать программу</a>
     </section>
     <section class="type-food">
@@ -92,10 +107,28 @@
         </dl>
       </div>
       <div class="example__wrapper">
-        <img class="example__image example__image--before" src="images/example-image/cat-before.png" width="280"
-          height="256" alt="Кот Борис до похудения">
-        <img class="example__image example__image--after" src="images/example-image/cat-after.png" width="280"
-          height="256" alt="Кот Борис после похудения">
+        <picture>
+          <source type="image/png" media="(min-width: 1440px)"
+            srcset="images/example-image/cat-before-desctop@1x.png 1x, images/example-image/cat-before-desctop@2x.png 2x"
+            width="560" height="512">
+          <source type="image/png" media="(min-width: 768px)"
+            srcset="images/example-image/cat-before-tablet@1x.png 1x, images/example-image/cat-before-tablet@2x.png 2x"
+            width="560" height="512">
+          <img class="example__image example__image--before" src="images/example-image/cat-before-mobail@1x.png"
+            srcset="images/example-image/cat-before-mobail@2x.png 2x" width="280" height="256"
+            alt="Кот Борис до похудения">
+        </picture>
+        <picture>
+          <source type="image/png" media="(min-width: 1440px)"
+            srcset="images/example-image/cat-after-desctop@1x.png 1x, images/example-image/cat-after-desctop@2x.png 2x"
+            width="560" height="512">
+          <source type="image/png" media="(min-width: 768px)"
+            srcset="images/example-image/cat-after-tablet@1x.png 1x, images/example-image/cat-after-tablet@2x.png 2x"
+            width="560" height="512">
+          <img class="example__image example__image--after" src="images/example-image/cat-after-mobail@1x.png"
+            srcset="images/example-image/cat-after-mobail@2x.png 2x" width="280" height="256"
+            alt="Кот Борис после похудения">
+        </picture>
       </div>
     </section>
   </main>
@@ -107,15 +140,22 @@
         <p class="location__description">приглашаем к сотрудничеству дилеров!</p>
         <address class="location__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
       </div>
-      <div>
-        <img class="location__map location-map" src="images/location.jpg" width="320" height="362"
+      <picture>
+        <source type="image/jpeg" media="(min-width: 1440px)"
+          srcset="images/location-desctop@1x.jpg 1x, images/location-desctop@2x.jpg 2x" width="1440" height="400">
+        <source type="image/jpeg" media="(min-width: 768px)"
+          srcset="images/location-tablet@1x.jpg 1x, images/location-tablet@2x.jpg 2x" width="768" height="400">
+        <img class="location__map location-map" src="images/location-mobail@1x.jpg"
+          srcset="images/location-mobail@2x.jpg 2x" width="320" height="362"
           alt="Карта расположения магазина Cat Energy">
-      </div>
+      </picture>
     </section>
     <div class="main-footer__wrapper">
       <div class="main-footer__logo-text">
         <a class="main-footer__link-logo-text" href="index.html" aria-current="page">
-          <img src="images/logo/logo-text.png" width="101" height="18" alt="Cat Energy">
+          <picture>
+            <img src="images/logo/logo-text.svg" width="101" height="18" alt="Cat Energy">
+          </picture>
         </a>
       </div>
       <div class="main-footer__social social">
@@ -134,8 +174,10 @@
       </div>
       <div class="main-footer__copyright copyright">
         <a class="copyright__academy-text" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        <img class="copyright__academy-icon" src="images/logo/logo-html-academy.png" alt="Логотип HTML Academy"
-          width="27" height="34">
+        <picture>
+          <img class="copyright__academy-icon" src="images/logo/logo-html-academy.svg" alt="Логотип HTML Academy"
+            width="27" height="34">
+        </picture>
       </div>
     </div>
   </footer>
