@@ -6,7 +6,7 @@
     <title>Название проекта</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="favicon.ico">
-    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="favicons/apple-favicon.png">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
@@ -17,7 +17,7 @@
     <header class="main-header">
         <a class="main-header__link" href="index.html">
             <picture>
-                <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo/logo-desctop.svg"
+                <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo/logo-desktop.svg"
                     width="70" height="59">
                 <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo/logo-tablet.svg" width="60"
                     height="50">
@@ -25,6 +25,8 @@
                     alt="Логотип сайта Cat Energy">
             </picture>
             <picture>
+                <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo/logo-text.svg" width="118"
+                    height="21">
                 <img class="main-header__logo-text" src="images/logo/logo-text.svg" width="101" height="18"
                     alt="Cat Energy">
             </picture>
@@ -160,13 +162,13 @@
             </div>
             <picture>
                 <source type="image/jpeg" media="(min-width: 1440px)"
-                    srcset="images/location-desctop@1x.jpg 1x, images/location-desctop@2x.jpg 2x" width="1440"
+                    srcset="images/location-desktop@1x.jpg 1x, images/location-desktop@2x.jpg 2x" width="1440"
                     height="400">
                 <source type="image/jpeg" media="(min-width: 768px)"
                     srcset="images/location-tablet@1x.jpg 1x, images/location-tablet@2x.jpg 2x" width="768"
                     height="400">
-                <img class="location__map location-map" src="images/location-mobail@1x.jpg"
-                    srcset="images/location-mobail@2x.jpg 2x" width="320" height="362"
+                <img class="location__map location-map" src="images/location-mobile@1x.jpg"
+                    srcset="images/location-mobile@2x.jpg 2x" width="320" height="362"
                     alt="Карта расположения магазина Cat Energy">
             </picture>
         </section>
@@ -174,7 +176,8 @@
             <div class="main-footer__logo-text">
                 <a class="main-footer__link-logo-text" href="index.html">
                     <picture>
-                        <img src="images/logo/logo-text.svg" width="101" height="18" alt="Cat Energy">
+                        <img class="main-footer__logo-text" src="images/logo/logo-text.svg" width="128" height="24"
+                            alt="Cat Energy">
                     </picture>
                 </a>
             </div>
