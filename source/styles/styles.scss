@@ -6,9 +6,13 @@
 /* BLOCKS */
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/page.scss";
+
+// Header
 @import "./blocks/main-header.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/site-list.scss";
+
+// Main
 @import "./blocks/main-container.scss";
 @import "./blocks/hero.scss";
 @import "./blocks/button.scss";
@@ -16,6 +20,8 @@
 @import "./blocks/advantages.scss";
 @import "./blocks/example.scss";
 @import "./blocks/stats.scss";
+
+// Footer
 @import "./blocks/main-footer.scss";
 @import "./blocks/location.scss";
 @import "./blocks/social.scss";
