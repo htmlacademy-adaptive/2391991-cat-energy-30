@@ -1,7 +1,8 @@
 /* GLOBAL */
+@import "./global/mixins";
+@import "./global/fonts.scss";
 @import "./global/variables.scss";
 @import "./global/global.scss";
-@import "./global/fonts.scss";
 
 /* BLOCKS */
 @import "./blocks/visually-hidden.scss";
@@ -16,24 +17,15 @@
 // Main
 @import "./blocks/main-container.scss";
 @import "./blocks/hero.scss";
-@import "./blocks/hero-title.scss";
-@import "./blocks/hero-description.scss";
 @import "./blocks/button.scss";
 @import "./blocks/type-food.scss";
-@import "./blocks/type-food-card.scss";
-@import "./blocks/card-title.scss";
-@import "./blocks/button-catalog.scss";
 @import "./blocks/advantages.scss";
-@import "./blocks/advantages-title.scss";
 @import "./blocks/example.scss";
-@import "./blocks/example-title.scss";
 @import "./blocks/stats.scss";
 
 // Страница формы
 // Main
 @import "./blocks/page-container.scss";
-@import "./blocks/container-title.scss";
-@import "./blocks/container-description.scss";
 @import "./blocks/page-form.scss";
 @import "./blocks/basic.scss";
 @import "./blocks/input-text.scss";
@@ -48,10 +40,8 @@
 // Страница каталога
 // Main
 @import "./blocks/catalog-container.scss";
-@import "./blocks/catalog-title.scss";
 @import "./blocks/catalog-product.scss";
 @import "./blocks/product-card.scss";
-@import "./blocks/product-card-title.scss";
 @import "./blocks/product-card-feature.scss";
 @import "./blocks/product-show-more.scss";
 @import "./blocks/additional-products.scss";
