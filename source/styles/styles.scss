@@ -45,6 +45,19 @@
 @import "./blocks/checkbox.scss";
 @import "./blocks/form-legend.scss";
 
+// Страница каталога
+// Main
+@import "./blocks/catalog-container.scss";
+@import "./blocks/catalog-title.scss";
+@import "./blocks/catalog-product.scss";
+@import "./blocks/product-card.scss";
+@import "./blocks/product-card-title.scss";
+@import "./blocks/product-card-feature.scss";
+@import "./blocks/product-show-more.scss";
+@import "./blocks/additional-products.scss";
+@import "./blocks/additional-products-feature.scss";
+@import "./blocks/gift.scss";
+
 // Footer
 @import "./blocks/main-footer.scss";
 @import "./blocks/location.scss";
