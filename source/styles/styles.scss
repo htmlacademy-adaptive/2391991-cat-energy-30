@@ -3,6 +3,7 @@
 @import "./global/global.scss";
 @import "./global/fonts.scss";
 
+// Главная страница
 /* BLOCKS */
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/page.scss";
@@ -27,6 +28,22 @@
 @import "./blocks/example.scss";
 @import "./blocks/example-title.scss";
 @import "./blocks/stats.scss";
+
+// Страница формы
+// Main
+@import "./blocks/page-container.scss";
+@import "./blocks/container-title.scss";
+@import "./blocks/container-description.scss";
+@import "./blocks/page-form.scss";
+@import "./blocks/basic.scss";
+@import "./blocks/input-text.scss";
+@import "./blocks/types-program.scss";
+@import "./blocks/radio-toggle.scss";
+@import "./blocks/contact-info.scss";
+@import "./blocks/comment.scss";
+@import "./blocks/additionally-products.scss";
+@import "./blocks/checkbox.scss";
+@import "./blocks/form-legend.scss";
 
 // Footer
 @import "./blocks/main-footer.scss";
