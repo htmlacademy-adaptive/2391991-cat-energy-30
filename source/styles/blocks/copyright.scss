@@ -3,7 +3,11 @@
 }
 
 .copyright__academy-text {
-
+    font-family: $text-font;
+    color: $text-color-secondary;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
 }
 
 .copyright__academy-icon {
