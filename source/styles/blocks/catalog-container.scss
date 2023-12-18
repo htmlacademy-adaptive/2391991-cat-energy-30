@@ -3,5 +3,13 @@
 }
 
 .catalog-container__title {
-    
+    color: $text-color-primary;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+
+    @media (min-width: 768px) {
+        font-size: 60px;
+        line-height: 60px;
+    }
 }
