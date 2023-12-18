@@ -2,6 +2,14 @@
 
 }
 
+.location--form {
+    background-color: $background-color-secondary;
+
+    @media (min-width: 1320px) {
+        background-color: $background-color-primary;        
+    }
+}
+
 .location__wrapper {
 
 }
