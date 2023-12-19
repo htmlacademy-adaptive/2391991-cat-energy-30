@@ -1,0 +1,54 @@
+.advantages {
+
+}
+
+.advantages__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+
+    @media (min-width: 768px) {
+        font-size: 60px;
+        line-height: 60px;        
+    }
+} 
+
+.advantages__title--section {
+    
+}
+
+.advantages__description {
+    font-family: $text-font;
+    color: $text-color-secondary;
+    font-size: 14px;
+    line-height: 18px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 24px;        
+    }
+}
+
+.advantages__list {
+
+}
+
+.advantages__item {
+
+} 
+
+.advantages__item--helpful {
+
+}
+
+.advantages__item--easy {
+
+}
+
+.advantages__item--econom {
+
+}
+
+.advantages__item--fast {
+
+}

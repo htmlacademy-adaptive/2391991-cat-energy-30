@@ -1,0 +1,50 @@
+.hero {
+    background-color: $color-secondary;
+    color: #ffffff;
+    @media (min-width: 768px) {
+        background-color: $background-color-primary;
+        color: $text-color-primary;
+        font-size: 60px;
+        line-height: 60px;        
+    }
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+
+    @media (min-width: 768px) {
+        font-size: 60px;
+        line-height: 60px;        
+    }
+}
+
+.hero__title--page-title {
+
+}
+
+.hero__description {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 20px;        
+    }
+}
+
+.hero__description--page-description {
+
+}
+
+.hero__button {
+    font-size: 16px;
+    line-height: 20px;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

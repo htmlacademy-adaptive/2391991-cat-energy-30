@@ -1,0 +1,37 @@
+.page-container {
+
+}
+
+.page-container__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+
+    @media (min-width: 768px) {
+        font-size: 60px;
+        line-height: 60px;        
+    }
+}
+
+.page-container__title--main {
+
+}
+
+.page-container__description {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 30px;        
+    }
+}
+
+.page-container__description--main {
+    
+}
+
+.page-container__form {
+    
+}

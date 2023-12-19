@@ -1,0 +1,39 @@
+.location {
+
+}
+
+.location--second {
+    background-color: $background-color-secondary;
+
+    @media (min-width: 1320px) {
+        background-color: $background-color-primary;        
+    }
+}
+
+.location__wrapper {
+
+}
+
+.location__description {
+    color: #111111;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 26px;        
+    }
+}
+
+.location__address {
+    font-family: $text-font;
+    color: $text-color-secondary;
+    font-size: 14px;
+    line-height: 20px;
+    
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 20px;        
+    }
+}

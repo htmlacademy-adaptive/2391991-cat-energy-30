@@ -1,0 +1,38 @@
+.example {
+    background-color: #EAEAEA;    
+
+    @media (min-width: 768px) {
+        background-color: #ffffff;           
+    }
+}
+
+.example__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+
+    @media (min-width: 768px) {
+        font-size: 60px;
+        line-height: 60px;        
+    }
+} 
+
+.example__title--section {
+    
+}
+
+.example__description {
+    font-family: $text-font;
+    color: $text-color-secondary;
+    font-size: 14px;
+    line-height: 18px;
+    
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 24px;        
+    }
+}
+
+.example__statistic {
+    
+}
