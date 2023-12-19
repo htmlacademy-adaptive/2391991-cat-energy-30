@@ -3,26 +3,26 @@
 }
 
 .basic__info {
-    color: $text-color-secondary;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
+  color: $text-color-secondary;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 
-    @media (min-width: 768px) {
-        font-size: 20px;
-        line-height: normal;        
-    }
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .page-form__input {
-    color: $text-color-secondary;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
+  color: $text-color-secondary;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 
-    @media (min-width: 768px) {
-        font-size: 20px;
-        line-height: normal;        
-    }
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 

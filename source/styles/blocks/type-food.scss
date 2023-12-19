@@ -3,7 +3,7 @@
 }
 
 .type-food__card {
- background-color: $example-color;
+  background-color: $example-color;
 }
 
 .type-food__card--wrapper {
@@ -11,16 +11,16 @@
 }
 
 .type-food__card-title {
-    color: $text-color-primary;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 37px;
-    text-transform: uppercase;
+  color: $text-color-primary;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
 
-    @media (min-width: 768px) {
-        font-size: 36px;
-        line-height: 36px;        
-    }
+  @media (min-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .type-food__card-title-icon-slim {
@@ -28,32 +28,32 @@
 }
 
 .type-food__card-title-icon-pro {
-    
+
 }
 
 .type-food__card-description {
-    font-family: $text-font;
-    color: $text-color-secondary;
-    font-size: 14px;
-    line-height: 18px;
+  font-family: $text-font;
+  color: $text-color-secondary;
+  font-size: 14px;
+  line-height: 18px;
 
-    @media (min-width: 768px) {
-        font-size: 16px;
-        line-height: 24px;        
-    }
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .type-food__card-button {
-    color: $text-color-primary;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: $text-color-primary;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
 
-    @media (min-width: 768px) {
-        font-size: 16px;
-        line-height: normal;        
-    }
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: normal;
+  }
 }
 
 .type-food__card-button-catalog {
