@@ -23,9 +23,24 @@
   font-size: 14px;
   line-height: 18px;
 
-  @media (min-width: 768px) {
+  &::before {
+    content: "";
+    display: inline-block;
+    min-width: 60px;
+    min-height: 60px;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+
+    @media (min-width: 768px) {
     font-size: 16px;
     line-height: 24px;
+
+    &::before {
+      min-width: 80px;
+      min-height: 80px;
+      background-size: 80px 80px;
+      }
+    }
   }
 }
 
@@ -38,17 +53,38 @@
 }
 
 .advantages__item--helpful {
-
+  .advantages__description {
+    &::before {
+      background-image: url("../../images/icons/stack.svg#icon-leaf");
+      background-color: green;
+    }
+  }
 }
 
 .advantages__item--easy {
-
+  .advantages__description {
+    &::before {
+      background-image: url("../../images/icons/stack.svg#icon-powder");
+      background-color: green;
+    }
+  }
 }
 
 .advantages__item--econom {
-
+  .advantages__description {
+    &::before {
+      background-image: url("../../images/icons/stack.svg#icon-eat");
+      background-color: green;
+    }
+  }
 }
 
-.advantages__item--fast {
 
+.advantages__item--fast {
+  .advantages__description {
+    &::before {
+      background-image: url("../../images/icons/stack.svg#icon-clock");
+      background-color: green;
+    }
+  }
 }
