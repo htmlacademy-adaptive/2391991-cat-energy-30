@@ -3,11 +3,31 @@
 }
 
 .product-show-more__button {
-
+  border: none;
+  background-color: $background-color-primary;
 }
 
 .product-show-more__button--more {
+  &::before {
+    content: "";
+    display: inline-block;
+    min-width: 30px;
+    min-height: 30px;
+    background-image: url("../../images/icons/stack.svg#icon-button-more");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
 
+    @media (min-width: 768px) {
+      border: none;
+      background-color: $background-color-primary;
+
+      &::before {
+        min-width: 60px;
+        min-height: 60px;
+        background-size: 60px 60px;
+      }
+    }
+  }
 }
 
 .product-show-more__text {
