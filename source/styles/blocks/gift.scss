@@ -11,11 +11,9 @@
     background-repeat: no-repeat;
   
     @media (min-width: 768px) {
-      &::before {
         min-width: 80px;
         min-height: 82px;
         background-size: 80px 82px;
-      }
     }
   }
 }

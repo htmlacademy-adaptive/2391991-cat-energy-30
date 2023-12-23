@@ -11,13 +11,13 @@
 }
 
 .social__link {
-
+    // &:hover .social__link--logo {
+    //     fill: #68B738;
+    // }
 }
 
 .social__link--logo {
-    &:hover {
-        fill: #68B738;
-    }
+    // fill: #666666;
 }
 
 .social__link--vkontakte {
