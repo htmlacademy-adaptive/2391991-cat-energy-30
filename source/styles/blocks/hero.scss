@@ -2,7 +2,7 @@
   background-color: $color-secondary;
   color: #ffffff;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     background-color: $background-color-primary;
     color: $text-color-primary;
     font-size: 60px;
@@ -15,14 +15,10 @@
   font-size: 36px;
   line-height: 36px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
   }
-}
-
-.hero__title--page-title {
-
 }
 
 .hero__description {
@@ -30,21 +26,17 @@
   line-height: 14px;
   text-transform: uppercase;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
   }
-}
-
-.hero__description--page-description {
-
 }
 
 .hero__button {
   font-size: 16px;
   line-height: 20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
   }

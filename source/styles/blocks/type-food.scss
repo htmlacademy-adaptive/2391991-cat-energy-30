@@ -1,13 +1,5 @@
-.type-food {
-
-}
-
 .type-food__card {
   background-color: $example-color;
-}
-
-.type-food__card--wrapper {
-
 }
 
 .type-food__card-title {
@@ -22,7 +14,7 @@
     display: inline-block;
     background-repeat: no-repeat;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
       font-size: 36px;
       line-height: 36px;
     }
@@ -36,16 +28,16 @@
     height: 53px;
     background-size: 36px 50px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
       width: 200px;
       height: 211px;
       background-size: 140px 194px;
+    }
       
-      @media (min-width: 1320px) {
-        width: 100px;
-        height: 106px;
-        background-size: 70px 97px;
-      }
+    @media (min-width: $desktop-width) {
+      width: 100px;
+      height: 106px;
+      background-size: 70px 97px;
     }
   }
 }
@@ -57,16 +49,16 @@
     height: 50px;
     background-size: 67px 28px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
       width: 268px;
       height: 200px;
       background-size: 268px 112px;
+    }
 
-      @media (min-width: 1320px) {
-        width: 134px;
-        height: 100px;
-        background-size: 134px 56px;
-      }
+    @media (min-width: $desktop-width) {
+      width: 134px;
+      height: 100px;
+      background-size: 134px 56px;
     }
   }
 }
@@ -77,7 +69,7 @@
   font-size: 14px;
   line-height: 18px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
   }
@@ -98,7 +90,7 @@
     height: 10px;
 
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: normal;
     }

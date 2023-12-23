@@ -4,12 +4,12 @@
   font-size: 20px;
   line-height: 20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 18px;
     line-height: 24px;
   }
 
-  @media (min-width: 1320px) {
+  @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: normal;
     color: #ffffff;
@@ -17,20 +17,12 @@
   }
 }
 
-.site-list__item {
-
-}
-
 .site-list__link {
   color: $text-color-primary;
   text-decoration: none;
 
-  @media (min-width: 1320px) {
+  @media (min-width: $desktop-width) {
     color: #ffffff;
   }
-}
-
-.site-list__link--active {
-
 }
 

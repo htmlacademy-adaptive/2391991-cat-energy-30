@@ -17,7 +17,7 @@
     background-size: 30px 30px;
     background-repeat: no-repeat;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
       border: none;
       background-color: $background-color-primary;
       min-width: 60px;
@@ -34,7 +34,7 @@
   line-height: 20px;
   text-transform: uppercase;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 24px;
   }
@@ -46,7 +46,7 @@
   font-size: 12px;
   line-height: 16px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 18px;
   }

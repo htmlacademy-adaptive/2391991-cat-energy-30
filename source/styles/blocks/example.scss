@@ -1,7 +1,7 @@
 .example {
   background-color: #eaeaea;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     background-color: #ffffff;
   }
 }
@@ -11,14 +11,10 @@
   font-size: 36px;
   line-height: 40px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
   }
-}
-
-.example__title--section {
-
 }
 
 .example__description {
@@ -27,12 +23,8 @@
   font-size: 14px;
   line-height: 18px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
   }
-}
-
-.example__statistic {
-
 }
