@@ -1,67 +1,51 @@
-.page-form {
-
-}
-
-.page-form__section {
-
-}
-
 .page-form__label {
-    color: $text-color-secondary;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
+  color: $text-color-secondary;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 
-    @media (min-width: 768px) {
-        font-size: 20px;
-        line-height: normal;        
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .page-form__input {
-    font-family: $primary-font;
-    color: $text-color-secondary;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
+  font-family: $primary-font;
+  color: $text-color-secondary;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 
-    @media (min-width: 768px) {
-        font-size: 20px;
-        line-height: normal;        
-    }
-}
-
-.page-form__list {
-
-}
-
-.page-form__item {
-
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .page-form__title {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 26px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
 
-    @media (min-width: 768px) {
-        font-size: 36px;
-        line-height: 36px;        
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .page-form__button {
-    font-size: 16px;
-    line-height: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .page-form__legend {
-    font-family: $text-font;
-    font-size: 14px;
-    line-height: 16px;
+  font-family: $text-font;
+  font-size: 14px;
+  line-height: 16px;
 
-    @media (min-width: 768px) {
-        font-size: 16px;
-        line-height: 16px;        
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }

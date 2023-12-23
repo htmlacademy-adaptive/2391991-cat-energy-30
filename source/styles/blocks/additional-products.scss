@@ -3,14 +3,14 @@
 }
 
 .additional-products__section-title {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
 
-    @media (min-width: 768px) {
-        font-size: 36px;
-        line-height: 36px;
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .additional-products__section-title--section {
@@ -26,9 +26,9 @@
 }
 
 .additional-products__link {
-    color: #222222;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .additional-products__link--title {
@@ -36,14 +36,14 @@
 }
 
 .additional-products__card-title {
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
 
-    @media (min-width: 768px) {
-        font-size: 20px;
-        line-height: 20px;
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .additional-products__card-title--card {
@@ -55,6 +55,6 @@
 }
 
 .additional-products__button {
-    font-size: 16px;
-    line-height: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }

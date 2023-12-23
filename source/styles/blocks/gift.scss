@@ -1,10 +1,26 @@
 .gift {
-    background-color: $color-secondary;
+  background-color: $color-secondary;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../../images/icons/stack.svg#icon-gift");
+    min-width: 78px;
+    min-height: 80px;
+    background-size: 78px 80px;
+    background-repeat: no-repeat;
+
+    @media (min-width: $tablet-width) {
+      min-width: 80px;
+      min-height: 82px;
+      background-size: 80px 82px;
+    }
+  }
 }
 
 .gift__text {
-    font-family: $text-font;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 20px;
+  font-family: $text-font;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
 }

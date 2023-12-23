@@ -1,27 +1,17 @@
-.social {
-
-}
-
-.social__list {
-
-}
-
-.social__item {
-
-}
-
 .social__link {
+  color: #666666;
 
+  &:hover {
+    color: #68b738;
+  }
+
+  &:active {
+    color: #68b738;
+    opacity: 0.3;
+  }
 }
 
-.social__link--vkontakte {
-
-}
-
-.social__link--youtube {
-
-}
-
-.social__link--telegram {
-    
+.social__icon {
+  width: 28px;
+  height: 22px;
 }
