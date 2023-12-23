@@ -24,11 +24,11 @@
     background-repeat: no-repeat;
 
     @media (min-width: $tablet-width) {
-    font-size: 16px;
-    line-height: 24px;
-    width: 80px;
-    height: 80px;
-    background-size: 24px 28px;
+      font-size: 16px;
+      line-height: 24px;
+      width: 80px;
+      height: 80px;
+      background-size: 24px 28px;
     }
   }
 }
@@ -37,7 +37,7 @@
   .advantages__description {
     &::before {
       background-image: url("../../images/icons/stack.svg#icon-leaf");
-      background-color: #68B738;
+      background-color: #68b738;
     }
   }
 }
@@ -46,7 +46,7 @@
   .advantages__description {
     &::before {
       background-image: url("../../images/icons/stack.svg#icon-powder");
-      background-color: #68B738;
+      background-color: #68b738;
     }
   }
 }
@@ -55,7 +55,7 @@
   .advantages__description {
     &::before {
       background-image: url("../../images/icons/stack.svg#icon-eat");
-      background-color: #68B738;
+      background-color: #68b738;
     }
   }
 }
@@ -65,7 +65,7 @@
   .advantages__description {
     &::before {
       background-image: url("../../images/icons/stack.svg#icon-clock");
-      background-color: #68B738;
+      background-color: #68b738;
     }
   }
 }

@@ -1,6 +1,6 @@
 .gift {
   background-color: $color-secondary;
-  
+
   &::before {
     content: "";
     display: inline-block;
@@ -9,11 +9,11 @@
     min-height: 80px;
     background-size: 78px 80px;
     background-repeat: no-repeat;
-  
+
     @media (min-width: $tablet-width) {
-        min-width: 80px;
-        min-height: 82px;
-        background-size: 80px 82px;
+      min-width: 80px;
+      min-height: 82px;
+      background-size: 80px 82px;
     }
   }
 }
