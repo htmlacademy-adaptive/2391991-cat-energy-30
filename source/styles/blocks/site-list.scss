@@ -12,8 +12,9 @@
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: normal;
-    color: #ffffff;
-    background-color: $color-secondary;
+    color: $text-color-primary;
+    // color: #ffffff;
+    // background-color: $color-secondary;
   }
 }
 
@@ -22,7 +23,7 @@
   text-decoration: none;
 
   @media (min-width: $desktop-width) {
-    color: #ffffff;
+    color: $text-color-primary;
   }
 }
 

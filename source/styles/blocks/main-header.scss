@@ -2,6 +2,30 @@
 
 }
 
-.main-header__link {
+.main-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 20px;
+}
 
+.main-header__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main-header__logo {
+    margin-right: 56px;
+
+    @media (min-width: $tablet-width) {
+        margin-right: 13px;        
+    }
+}
+
+.main-header__toggle {
+
+    @media (min-width: $tablet-width) {
+        display: none;        
+    }
 }
