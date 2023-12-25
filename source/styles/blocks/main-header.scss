@@ -1,52 +1,51 @@
 .main-header {
-    &--header {
-        @media (min-width: $desktop-width) {
-            background: linear-gradient(to right, $background-color-primary, $background-color-primary 50%, $color-secondary 50%, $color-secondary);
-          }
-
+  &--header {
+    @media (min-width: $desktop-width) {
+      background: linear-gradient(to right, $background-color-primary, $background-color-primary 50%, $color-secondary 50%, $color-secondary);
     }
+  }
 }
 
 .main-header__wrapper {
-    display: flex;
-    flex-direction: column;
-    padding: 13px 20px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 13px 20px;
+  margin: 0 auto;
 
-    @media (min-width: $tablet-width) {
-        min-width: 704px;
-        flex-direction: row;
-        padding: 25px 34px 0 30px;
-        justify-content: space-between;
-      }
+  @media (min-width: $tablet-width) {
+    min-width: 704px;
+    flex-direction: row;
+    padding: 25px 34px 0 30px;
+    justify-content: space-between;
+  }
 
-      @media (min-width: $desktop-width) {
-        min-width: 1220px;
-        padding: 55px 30px 0;
-        justify-content: space-between;
-      }
+  @media (min-width: $desktop-width) {
+    min-width: 1220px;
+    padding: 55px 30px 0;
+    justify-content: space-between;
+  }
 }
 
 .main-header__link {
-    display: flex;
-    align-items: center;
-    gap: 56px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
 
-    @media (min-width: $tablet-width) {
-        gap: 13px;        
-    }
+  @media (min-width: $tablet-width) {
+    gap: 13px;
+  }
 
-    @media (min-width: $desktop-width) {
-        gap: 14px;
-      }
+  @media (min-width: $desktop-width) {
+    gap: 14px;
+  }
 }
 
 .main-header__main-nav {
-    @media (min-width: $tablet-width) {
-      width: 430px;
-    }
-  
-    @media (min-width: $desktop-width) {
-      width: 690px;
-    }
+  @media (min-width: $tablet-width) {
+    width: 430px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 690px;
+  }
+}
