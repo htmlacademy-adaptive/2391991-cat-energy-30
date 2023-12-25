@@ -10,11 +10,10 @@
   }
 
   @media (min-width: $desktop-width) {
+    padding: 0 30px;
     font-size: 20px;
     line-height: normal;
-    color: $text-color-primary;
-    // color: #ffffff;
-    // background-color: $color-secondary;
+    color: #ffffff;
   }
 }
 
@@ -22,8 +21,9 @@
   color: $text-color-primary;
   text-decoration: none;
 
+
   @media (min-width: $desktop-width) {
-    color: $text-color-primary;
+      color: #ffffff;
   }
 }
 
