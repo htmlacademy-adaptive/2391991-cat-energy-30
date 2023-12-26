@@ -44,10 +44,10 @@
     background-repeat: no-repeat;
   }
 
-    @media (min-width: $tablet-width) {
-      font-size: 36px;
-      line-height: 36px;
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .type-food__card-title-icon-slim {
