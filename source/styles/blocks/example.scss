@@ -1,5 +1,5 @@
 .example {
-  background-color: #eaeaea;
+  background-color: $example-color;
 
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
