@@ -1,5 +1,13 @@
 .main-nav {
-
+  @media (min-width: $tablet-width) {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  @media (min-width: $desktop-width) {
+    padding-top: 54px;
+    padding-bottom: 28px;
+  }
 }
 
 .main-nav__link {
@@ -11,10 +19,22 @@
   display: flex;
   align-items: center;
   padding: 13.5px 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .main-nav__img-logo {
   margin-right: 56px;
+  
+  @media (min-width: $tablet-width) {
+    margin-right: 13px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 14px;
+  }
 }
 
 .main-nav__toggle {
