@@ -1,8 +1,13 @@
 .hero {
-  background: linear-gradient($color-secondary, $color-secondary 63%, $background-color-primary 63%, $background-color-primary);
+  position: relative;
+  padding-bottom: 10px;
+  min-height: 478px;
   color: #ffffff;
-  margin: 0 auto;
-  padding: 27px 20px 0;
+  text-align: center;
+  background-image: linear-gradient(180deg,#64a83b 62.4%, $background-color-primary 62.4%);
+  background-size: 320px 305px,100%;
+  background-position: top center;
+  background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
     background: $background-color-primary;
