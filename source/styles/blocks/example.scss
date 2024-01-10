@@ -10,7 +10,7 @@
 
   @media (min-width: $desktop-width) {
     padding-top: 0;
-    background-image: linear-gradient(180deg, $background-color-primary 190px, transparent 190px), linear-gradient(90deg, $background-color-secondary 50%, $example-color 50%);
+    background-image: linear-gradient(180deg, $background-color-primary 190px, transparent 190px), linear-gradient(90deg, $background-color-secondary 50%, $background-color-secondary 50%);
     border-top: none;
   }
 }
@@ -25,11 +25,12 @@
   padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 52px;
+    padding-bottom: 100px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 610px;
+    padding-bottom: 75px;
+    width: 425px;
   }
 }
 
@@ -129,10 +130,14 @@
 
 .example__slider {
   margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    margin-right: -40px;
+  }
 }
 
 .example__slider-images {
-  @media (min-width: $tablet-width) {
+  @media (min-width: $tablet-width) and (max-width: $desktop-width) {
     &::before {
       content: "";
       position: absolute;
