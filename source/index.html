@@ -132,34 +132,45 @@
                 <dd class="stats__index">60 дней</dd>
               </div>
             </dl>
-            <p class="stats__title-expenses">Затраты на питание:
-              <span class="stats__index-expenses">15 000 руб.</span>
+            <p class="example__expenses">Затраты на питание:
+              <span class="example__expenses-index">15 000 руб.</span>
             </p>
           </div>
         </div>
-        <div class="example__picture-wrapper">
-          <picture>
-            <source type="image/png" media="(min-width: 1320px)"
-              srcset="images/example-image/cat-before-desktop@1x.png 1x, images/example-image/cat-before-desktop@2x.png 2x"
-              width="560" height="512">
-            <source type="image/png" media="(min-width: 768px)"
-              srcset="images/example-image/cat-before-tablet@1x.png 1x, images/example-image/cat-before-tablet@2x.png 2x"
-              width="560" height="512">
-            <img class="example__image example__image--before" src="images/example-image/cat-before-mobile@1x.png"
-              srcset="images/example-image/cat-before-mobile@2x.png 2x" width="280" height="256"
-              alt="Кот Борис до похудения">
-          </picture>
-          <picture>
-            <source type="image/png" media="(min-width: 1320px)"
-              srcset="images/example-image/cat-after-desktop@1x.png 1x, images/example-image/cat-after-desktop@2x.png 2x"
-              width="560" height="512">
-            <source type="image/png" media="(min-width: 768px)"
-              srcset="images/example-image/cat-after-tablet@1x.png 1x, images/example-image/cat-after-tablet@2x.png 2x"
-              width="560" height="512">
-            <img class="example__image example__image--after" src="images/example-image/cat-after-mobile@1x.png"
-              srcset="images/example-image/cat-after-mobile@2x.png 2x" width="280" height="256"
-              alt="Кот Борис после похудения">
-          </picture>
+        <div class="example__slider slider">
+          <div class="example__slider-images slider__images">
+            <div class="slider__images-wrapper slider__images-wrapper--before" style="width: 50%">
+              <picture class="slider__picture">
+                <source type="image/png" media="(min-width: 1320px)"
+                  srcset="images/example-image/cat-before-desktop@1x.png 1x, images/example-image/cat-before-desktop@2x.png 2x"
+                  width="560" height="512">
+                <source type="image/png" media="(min-width: 768px)"
+                  srcset="images/example-image/cat-before-tablet@1x.png 1x, images/example-image/cat-before-tablet@2x.png 2x"
+                  width="560" height="512">
+                <img class="example__image slider__image" src="images/example-image/cat-before-mobile@1x.png"
+                  srcset="images/example-image/cat-before-mobile@2x.png 2x" width="280" height="256"
+                  alt="Кот Борис до похудения">
+              </picture>
+            </div>
+            <div class="slider__images-wrapper slider__images-wrapper--after">
+              <picture class="slider__picture">
+                <source type="image/png" media="(min-width: 1320px)"
+                  srcset="images/example-image/cat-after-desktop@1x.png 1x, images/example-image/cat-after-desktop@2x.png 2x"
+                  width="560" height="512">
+                <source type="image/png" media="(min-width: 768px)"
+                  srcset="images/example-image/cat-after-tablet@1x.png 1x, images/example-image/cat-after-tablet@2x.png 2x"
+                  width="560" height="512">
+                <img class="example__image slider__image" src="images/example-image/cat-after-mobile@1x.png"
+                  srcset="images/example-image/cat-after-mobile@2x.png 2x" width="280" height="256"
+                  alt="Кот Борис после похудения">
+              </picture>
+            </div>
+          </div>
+          <div>
+            <button><span></span></button>
+            <input type="text">
+            <button><span></span></button>
+          </div>
         </div>
       </div>
     </section>
