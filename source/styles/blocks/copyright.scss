@@ -1,17 +1,27 @@
-.copyright__academy-text {
-  font-family: $text-font;
-  color: $text-color-secondary;
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  font-family: $text-font;
+  color: $text-color-secondary;
 
   &:hover {
-    color: #68b738;
+    color: $color-secondary;
   }
 
   &:active {
-    color: #68b738;
+    color: $color-secondary;
     opacity: 0.3;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 23%;
+    gap: 23px;
+    justify-content: flex-end;
   }
 }
 
@@ -21,11 +31,11 @@
   height: 34px;
 
   &:hover {
-    color: #68b738;
+    color: $color-secondary;
   }
 
   &:active {
-    color: #68b738;
+    color: $color-secondary;
     opacity: 0.3;
   }
 }

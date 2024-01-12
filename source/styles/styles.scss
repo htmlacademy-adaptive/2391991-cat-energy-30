@@ -10,6 +10,7 @@
 
 // Header
 @import "./blocks/main-header.scss";
+@import "./blocks/content-wrapper.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/site-list.scss";
 @import "./blocks/hero.scss";
@@ -22,6 +23,7 @@
 @import "./blocks/advantages.scss";
 @import "./blocks/example.scss";
 @import "./blocks/stats.scss";
+@import "./blocks/slider.scss";
 
 // Страница формы
 // Main
@@ -50,5 +52,7 @@
 // Footer
 @import "./blocks/main-footer.scss";
 @import "./blocks/location.scss";
+@import "./blocks/map.scss";
+@import "./blocks/footer-logo.scss";
 @import "./blocks/social.scss";
 @import "./blocks/copyright.scss";
