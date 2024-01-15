@@ -60,29 +60,6 @@
     opacity: 0.3;
   }
 
-  // &::before {
-  //   content: "";
-  //   position: absolute;
-  //   top: 35px;
-  //   right: 0;
-  //   width: 24px;
-  //   height: 2px;
-  //   background-color: currentColor;
-  //   transform: translateY(-50%) rotate(45deg);
-
-  // }
-
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   top: 35px;
-  //   right: 0;
-  //   width: 24px;
-  //   height: 2px;
-  //   background-color: currentColor;
-  //   transform: translateY(-50%) rotate(-45deg);
-  // }
-
   @media (min-width: $tablet-width) {
     display: none;
   }
@@ -100,13 +77,14 @@
     box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
   }
 }
+
 .main-nav--closed .main-nav__toggle {
   &:active {
     &::before {
       background-color: opacify(#000000, 0.3);
       box-shadow:
-      0 8px 0 0 opacify(#000000, 0.3),
-      0 16px 0 0 opacify(#000000, 0.3);
+        0 8px 0 0 opacify(#000000, 0.3),
+        0 16px 0 0 opacify(#000000, 0.3);
     }
   }
 }
@@ -127,32 +105,32 @@
     left: 0;
     z-index: 10;
     min-height: 35vh;
-    background-color: $background-color-primary; 
+    background-color: $background-color-primary;
+  }
+
+  .main-nav--opened .site-list__item {
+    &::before {
+      content: "";
+      background-color: $background-color-primary;
+      position: absolute;
+      top: 0;
+      left: -20px;
+      z-index: -1;
+      width: 20px;
+      height: 100%;
     }
 
-    .main-nav--opened .site-list__item {
-      &::before {
-        content: "";
-        background-color: $background-color-primary;
-        position: absolute;
-        top: 0;
-        left: -20px;
-        z-index: -1;
-        width: 20px;
-        height: 100%;
-      }
-
-      &::after {
-        content: "";
-        background-color: $background-color-primary;
-        position: absolute;
-        top: 0;
-        right: -20px;
-        z-index: -1;
-        width: 20px;
-        height: 100%;
-      }
+    &::after {
+      content: "";
+      background-color: $background-color-primary;
+      position: absolute;
+      top: 0;
+      right: -20px;
+      z-index: -1;
+      width: 20px;
+      height: 100%;
     }
+  }
 
   .main-nav--nojs .main-nav__wrapper {
     position: static;
@@ -170,7 +148,7 @@
     content: "";
     position: absolute;
     top: 11px;
-    left: 0px;
+    left: 0;
     width: 24px;
     height: 2px;
     background-color: #000000;
