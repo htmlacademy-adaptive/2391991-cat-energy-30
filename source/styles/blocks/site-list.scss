@@ -94,3 +94,15 @@
     background-color: #68b738;
   }
 }
+
+.site-list__link--active.site-list__link--index::after {
+  @media (min-width: $desktop-width) {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -11px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+}
