@@ -9,15 +9,15 @@
   font-family: $text-font;
   color: $text-color-secondary;
 
-    &:hover {
-      color: $color-secondary;
-    }
-  
-    &:active {
-      color: $color-secondary;
-      opacity: 0.3;
-    }
-  
+  &:hover {
+    color: $color-secondary;
+  }
+
+  &:active {
+    color: $color-secondary;
+    opacity: 0.3;
+  }
+
   @media (min-width: $tablet-width) {
     width: 23%;
     gap: 23px;

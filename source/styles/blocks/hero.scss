@@ -121,20 +121,20 @@
   margin-right: auto;
   width: 100%;
   max-width: 385px;
-  
+
   span {
     &:active {
-      background-color: #5EAA2F;
-      opacity: 0.3; 
+      background-color: #5eaa2f;
+      opacity: 0.3;
     }
   }
 
   &:hover {
-    background-color: #5EAA2F;
+    background-color: #5eaa2f;
   }
 
   &:active {
-    background-color: #5EAA2F;
+    background-color: #5eaa2f;
   }
 
   @media (min-width: $tablet-width) {
