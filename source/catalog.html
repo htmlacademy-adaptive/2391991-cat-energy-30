@@ -16,7 +16,10 @@
 <body class="page__body">
     <header class="main-header">
         <div class="main-header__wrapper content-wrapper">
-            <nav class="main-header__main-nav main-nav">
+            <nav class="main-header__main-nav main-nav main-nav--closed main-nav--nojs">
+                <button class="main-nav__toggle" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
                 <div class="main-nav__logo-wrapper">
                     <a class="main-nav__link" href="index.html">
                         <picture>
@@ -34,9 +37,6 @@
                                 alt="Cat Energy">
                         </picture>
                     </a>
-                    <button class="main-nav__toggle" type="button">
-                        <span class="visually-hidden">Открыть меню</span>
-                    </button>
                 </div>
 
                 <ul class="site-list">
