@@ -1,15 +1,17 @@
 .catalog-product {
-
+    margin-left: calc(var(--content-padding-mobile)*-1);
+    margin-right: calc(var(--content-padding-mobile)*-1);
+    border-bottom: 1px solid #EBEBEB;
 }
 
-.catalog-product__list {
 
-}
-
+// Удалить???
 .catalog-product__item {
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .catalog-product__show-more {
-
+    margin-left: auto;
+    margin-right: auto;
 }
