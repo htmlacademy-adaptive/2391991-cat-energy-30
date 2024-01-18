@@ -86,7 +86,7 @@
   border-radius: 2px;
   cursor: pointer;
   z-index: 10;
-  
+
   &::before {
     position: absolute;
     content: "";
@@ -113,7 +113,7 @@
 
   &:hover {
     background-color: $color-secondary;
-    
+
     &::before {
       border: 2px solid $color-secondary;
     }
@@ -126,7 +126,7 @@
   &:active {
     background-color: $color-secondary;
     opacity: 0.6;
-    
+
     &::before {
       border: 2px solid $color-secondary;
     }
@@ -135,12 +135,12 @@
       background-color: $color-secondary;
     }
   }
-    
+
   @media (min-width: $tablet-width) {
     top: 0;
     left: 278px;
     height: 512px;
-      
+
     &::before {
       top: 236px;
     }
