@@ -16,6 +16,12 @@
     margin-left: 0;
     border-bottom: none;
   }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4,245px);
+    column-gap: 80px;
+    row-gap: 63px;
+  }
 }
 
 
