@@ -1,20 +1,36 @@
 .gift {
   background-color: $color-secondary;
+  background-image:
+    image-set(
+     url("../../images/image-background/gift-background-mobile@1x.png") type("image/png") 1x,
+     url("../../images/image-background/gift-background-mobile@2x.png") type("image/png") 2x
+   );
+  background-size: cover;
+  min-height: 290px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
 
-  &::before {
-    content: "";
-    display: inline-block;
-    background-image: url("../../images/icons/stack.svg#icon-gift");
-    min-width: 78px;
-    min-height: 80px;
-    background-size: 78px 80px;
-    background-repeat: no-repeat;
+  @media (min-width: $tablet-width) {
+    min-height: 200px;
+    max-width: 900px;
+    // margin-bottom: 75px;
+    background-image:
+      image-set(
+      url("../../images/image-background/gift-background-tablet@1x.png") type("image/png") 1x,
+      url("../../images/image-background/gift-background-tablet@2x.png") type("image/png") 2x
+    );
+  }
 
-    @media (min-width: $tablet-width) {
-      min-width: 80px;
-      min-height: 82px;
-      background-size: 80px 82px;
-    }
+  @media (min-width: $desktop-width) {
+    min-height: 288px;
+    width: 245px;
+    // margin-bottom: 87px;
+    background-image:
+      image-set(
+      url("../../images/image-background/gift-background-desktop@1x.png") type("image/png") 1x,
+      url("../../images/image-background/gift-background-desktop@2x.png") type("image/png") 2x
+    );
   }
 }
 
@@ -23,4 +39,48 @@
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
+
+  text-align: center;
+  width: 58%;
+  margin: 0;
+  margin-top: 187px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../images/icons/stack.svg#icon-gift");
+    width: 78px;
+    height: 80px;
+    top: -128px;
+    left: 50%;
+    transform: translateX(-36px);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    margin: 71px 125px auto auto;
+    width: 23%;
+    
+  &::before {
+    top: -12px;
+    left: -306px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: center;
+    margin: 185px 42px auto;
+    width: 66%;
+
+    &::before {
+      width: 80px;
+      height: 83px;
+      top: -126px;
+      left: 50%;
+      transform: translateX(-40px);
+    }
+  }
 }
