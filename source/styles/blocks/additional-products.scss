@@ -24,7 +24,7 @@
   margin: 0;
   margin-bottom: 36px;
 
-  &::after, 
+  &::after,
   &::before {
     content: "";
     position: absolute;
@@ -43,7 +43,7 @@
   &::after {
     z-index: -2;
     top: 0.6em;
-    left: calc(var(--content-padding-mobile)*-1);
+    left: calc(var(--content-padding-mobile) *-1);
     width: 100vw;
     height: 2px;
     background-color: $color-secondary;
@@ -61,7 +61,7 @@
     }
 
     &::after {
-      left: calc(var(--content-padding-tablet)*-1);
+      left: calc(var(--content-padding-tablet) *-1);
     }
   }
 
@@ -74,7 +74,7 @@
     }
 
     &::after {
-      left: calc((50vw - var(--content-width-desktop)/2)*-1);
+      left: calc((50vw - var(--content-width-desktop)/2) *-1);
     }
   }
 }
@@ -135,7 +135,7 @@
     margin-left: 0;
     margin-right: 0;
 
-    grid-template-columns: repeat(2,285px) 245px;
+    grid-template-columns: repeat(2, 285px) 245px;
     column-gap: 40px;
     align-items: center;
     padding: 15px 0 17px;

@@ -5,20 +5,20 @@
 
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: repeat(2,324px);
+    grid-template-columns: repeat(2, 324px);
     gap: 60px;
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 70px;
-    
-    
+
+
     margin-right: 0;
     margin-left: 0;
     border-bottom: none;
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: repeat(4,245px);
+    grid-template-columns: repeat(4, 245px);
     column-gap: 80px;
     row-gap: 63px;
   }
