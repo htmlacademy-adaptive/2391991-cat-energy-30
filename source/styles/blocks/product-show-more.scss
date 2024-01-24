@@ -36,6 +36,8 @@
   background-color: $background-color-primary;
   padding: 0;
   padding-bottom: 23px;
+  cursor: pointer;
+
 
   @media (min-width: $tablet-width) {
     padding-bottom: 50px;
@@ -115,5 +117,14 @@
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
+
+  &:hover {
+    background-color: #EBEBEB;
+  }
+
+  &:active {
+    background-color: #EBEBEB;
+    color: $text-color-secondary;
+  }
 }
 

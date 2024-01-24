@@ -122,21 +122,6 @@
   width: 100%;
   max-width: 385px;
 
-  span {
-    &:active {
-      background-color: #5eaa2f;
-      opacity: 0.3;
-    }
-  }
-
-  &:hover {
-    background-color: #5eaa2f;
-  }
-
-  &:active {
-    background-color: #5eaa2f;
-  }
-
   @media (min-width: $tablet-width) {
     width: 244px;
     padding: 14px 26px;
