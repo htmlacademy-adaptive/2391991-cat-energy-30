@@ -1,3 +1,43 @@
 .radio-toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 46px;
 
+    --radio-outer-diameter: 30px;
+    --radio-inner-diameter: 13px;
+    min-height: var(--radio-outer-diameter);
+    
+
+    &::before,
+    &::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+    }
+
+    &::before {
+        content: "";
+        box-sizing: border-box;
+        left: 0;
+        width: var(--radio-outer-diameter);
+        height: var(--radio-outer-diameter);
+        border: 1px solid #cdcdcd;
+        background-color: #fff;
+    }
+
+    &::after {
+        content: none;
+        left: calc((var(--radio-outer-diameter) - var(--radio-inner-diameter))/2);
+        width: var(--radio-inner-diameter);
+        height: var(--radio-inner-diameter);
+        background-color: #68b738;
+    }
+
+    @media (min-width: $tablet-width) {
+    --radio-outer-diameter: 40px;
+    --radio-inner-diameter: 18px;
+    padding-left: 60px;
+    }
 }

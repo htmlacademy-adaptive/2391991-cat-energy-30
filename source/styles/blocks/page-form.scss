@@ -3,8 +3,11 @@
 }
 
 .page-form__wrapper {
-  display: flex;
-  flex-direction: column;
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(2,570px);
+    column-gap: 80px;
+  }
 }
 
 .page-form__section {
@@ -35,11 +38,12 @@
     @media (min-width: $desktop-width) {
       width: 46%;
       min-width: 570px;
+      margin-bottom: 70px;
     }
   }
 
   &--types-program {
-    padding-bottom: 18px;
+    padding-bottom: 19px;
     padding-top: 22px;
 
     @media (min-width: $tablet-width) {
@@ -50,6 +54,7 @@
     @media (min-width: $desktop-width) {
       width: 46%;
       min-width: 570px;
+      margin-bottom: 70px;
     }
   }
 
@@ -60,6 +65,16 @@
     @media (min-width: $tablet-width) {
       margin-top: 0;
     }
+
+    @media (min-width: $desktop-width) {
+    grid-column: 1/-1;
+    }
+  }
+
+  &--comment {
+    @media (min-width: $desktop-width) {
+      grid-column: 1/-1;
+      }
   }
 
   &--additionally-products {
@@ -73,6 +88,7 @@
 
     @media (min-width: $desktop-width) {
       margin-bottom: 60px;
+      grid-column: 1/-1;
     }
   }
 }
@@ -108,10 +124,14 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 87px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 78px;
+  }
 }
 
 .page-form__section--additionally-products .page-form__title {
-  margin-bottom: 36px;
+  margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 57px;
@@ -128,6 +148,7 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
+    padding: 25px 28px 25px;
   }
 }
 
@@ -159,8 +180,6 @@
     display: flex;
     flex-direction: row;
     column-gap: 80px;
-    width: 84%;
-    min-width: 1220px;
   }
 }
 
@@ -216,12 +235,63 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-
+  
   @media (min-width: $tablet-width) {
     padding: 0 40px;
     gap: 20px;
   }
+  
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
+}
 
+.page-form__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-form__label {
+  margin-right: 13px;
+}
+
+.page-form__input {
+  flex-grow: 1;
+
+  &::placeholder {
+    color: inherit;
+    opacity: 1;
+  }
+
+}
+
+.page-form__icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  fill: #222222;
+}
+
+.page-form__radio {
+
+}
+
+.page-form__label-radio {
+  width: 100%;
+}
+
+.page-form__radio:checked + .page-form__label-radio::after {
+  content: "";
+}
+
+.page-form__textarea-wrapper {
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+  
   @media (min-width: $desktop-width) {
     padding: 0;
   }
@@ -233,42 +303,71 @@
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+
+  display: block;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  width: 100%;
+  min-height: 150px;
+  border: 1px solid #e7e7e7;
+
+  &::placeholder {
+    color: inherit;
+    opacity: 1;
+  }
   
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
+
+    padding: 11px 20px;
+    min-height: 174px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 9px 20px;
   }
 }
 
-.page-form__label {
-  color: $text-color-secondary;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
+.page-form__button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
 
   @media (min-width: $tablet-width) {
-    font-size: 20px;
-    line-height: normal;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 40px;
+    padding-bottom: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 80px;
+    margin-left: 0;
+    padding-bottom: 79px;
   }
 }
-
-.page-form__input {
-  font-family: $primary-font;
-  color: $text-color-secondary;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-
-  @media (min-width: $tablet-width) {
-    font-size: 20px;
-    line-height: normal;
-  }
-}
-
 
 .page-form__button {
   font-size: 16px;
   line-height: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    padding: 14px;
+    margin: 0;
+
+    width: 40%;
+    min-width: 284px;
+    min-height: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 570px;
+  }
 }
 
 .page-form__legend {
