@@ -1,19 +1,19 @@
 .form-input {
-    font-family: $primary-font;
+  font-family: $primary-font;
   color: $text-color-secondary;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
   box-sizing: border-box;
 
-    border: 1px solid #e6e6e6;
-    padding: 14px 15px;
-    min-height: 46px;
-    outline: 0;
+  border: 1px solid #e6e6e6;
+  padding: 14px 15px;
+  min-height: 46px;
+  outline: 0;
 
-    &--contacts {
-        padding-right: 49px;
-    }
+  &--contacts {
+    padding-right: 49px;
+  }
 
   @media (min-width: $tablet-width) {
     font-size: 20px;

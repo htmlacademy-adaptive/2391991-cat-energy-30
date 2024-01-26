@@ -1,11 +1,7 @@
-.page-form {
-
-}
-
 .page-form__wrapper {
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: repeat(2,570px);
+    grid-template-columns: repeat(2, 570px);
     column-gap: 80px;
   }
 }
@@ -67,14 +63,14 @@
     }
 
     @media (min-width: $desktop-width) {
-    grid-column: 1/-1;
+      grid-column: 1/-1;
     }
   }
 
   &--comment {
     @media (min-width: $desktop-width) {
       grid-column: 1/-1;
-      }
+    }
   }
 
   &--additionally-products {
@@ -194,13 +190,13 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
-  
+
   padding: 0;
-  
+
   position: relative;
   width: fit-content;
   background-color: $background-color-primary;
-  box-shadow: -20px 0 0 0#fff,20px 0 0 0#fff;
+  box-shadow: -20px 0 0 0#fff, 20px 0 0 0#fff;
 
   &::before {
     content: "";
@@ -218,12 +214,12 @@
     font-size: 36px;
     line-height: 36px;
 
-    box-shadow: 40px 0 0 0#fff,40px 0 0 0#fff;
+    box-shadow: 40px 0 0 0#fff, 40px 0 0 0#fff;
     padding-left: 40px;
   }
 
   @media (min-width: $desktop-width) {
-    box-shadow: -40px 0 0 0#fff,40px 0 0 0#fff;
+    box-shadow: -40px 0 0 0#fff, 40px 0 0 0#fff;
     padding-left: 0;
   }
 }
@@ -235,12 +231,12 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  
+
   @media (min-width: $tablet-width) {
     padding: 0 40px;
     gap: 20px;
   }
-  
+
   @media (min-width: $desktop-width) {
     padding: 0;
   }
@@ -264,7 +260,6 @@
     color: inherit;
     opacity: 1;
   }
-
 }
 
 .page-form__icon {
@@ -291,7 +286,7 @@
   @media (min-width: $tablet-width) {
     padding: 0 40px;
   }
-  
+
   @media (min-width: $desktop-width) {
     padding: 0;
   }
@@ -315,7 +310,7 @@
     color: inherit;
     opacity: 1;
   }
-  
+
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
