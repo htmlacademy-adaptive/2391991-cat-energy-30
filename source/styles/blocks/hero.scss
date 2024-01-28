@@ -4,12 +4,13 @@
   min-height: 478px;
   color: #ffffff;
   text-align: center;
-  background-image: 
+  background-image:
     image-set(
-      url("../../images/image-background/index-background-mobile@1x.webp") type("image/webp") 1x
-      url("../../images/image-background/index-background-mobile@2x.webp") type("image/webp") 2x
-      url("../../images/image-background/index-background-mobile@1x.png") type("image/png") 1x, linear-gradient(180deg, #64a83b 62.4%, $background-color-primary 62.4%)
-      url("../../images/image-background/index-background-mobile@2x.png") type("image/png") 2x
+      url("../../images/image-background/index-background-mobile@1x.webp") type("image/webp") 1x,
+linear-gradient(180deg, #64a83b 62.4%, $background-color-primary 62.4%),
+      url("../../images/image-background/index-background-mobile@2x.webp") type("image/webp") 2x,
+      url("../../images/image-background/index-background-mobile@1x.png") type("image/png") 1x,
+url("../../images/image-background/index-background-mobile@2x.png") type("image/png") 2x
     );
   background-size: 320px 305px, 100%;
   background-position: top center;
