@@ -23,9 +23,13 @@
     gap: 23px;
     justify-content: flex-end;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 13.5%;
+  }
 }
 
-.copyright__academy-icon {
+.copyright + .copyright__academy-icon {
   color: #666666;
   width: 27px;
   height: 34px;

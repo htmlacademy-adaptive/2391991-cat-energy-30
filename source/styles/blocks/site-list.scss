@@ -43,11 +43,7 @@
 }
 
 .site-list__item:last-child {
-  border-bottom: 1px solid #e6e6e6;
-
-  @media (min-width: $tablet-width) {
-    border-bottom: none;
-  }
+  border-bottom: none;
 }
 
 .site-list__link {
@@ -60,11 +56,24 @@
   color: #000000;
   text-decoration: none;
 
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
   @media (min-width: $tablet-width) {
     padding: 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: normal;
   }
 }
 
@@ -84,5 +93,17 @@
     bottom: -11px;
     height: 2px;
     background-color: #68b738;
+  }
+}
+
+.site-list__link--active.site-list__link--index::after {
+  @media (min-width: $desktop-width) {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -11px;
+    height: 2px;
+    background-color: #ffffff;
   }
 }

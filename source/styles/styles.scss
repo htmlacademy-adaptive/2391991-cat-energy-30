@@ -18,7 +18,6 @@
 // Главная страница
 // Main
 @import "./blocks/button.scss";
-@import "./blocks/main-container.scss";
 @import "./blocks/type-food.scss";
 @import "./blocks/advantages.scss";
 @import "./blocks/example.scss";
@@ -28,14 +27,10 @@
 // Страница формы
 // Main
 @import "./blocks/page-container.scss";
+@import "./blocks/form-input.scss";
 @import "./blocks/page-form.scss";
-@import "./blocks/basic.scss";
-@import "./blocks/input-text.scss";
-@import "./blocks/types-program.scss";
+@import "./blocks/form-label.scss";
 @import "./blocks/radio-toggle.scss";
-@import "./blocks/contact-info.scss";
-@import "./blocks/comment.scss";
-@import "./blocks/additionally-products.scss";
 @import "./blocks/checkbox.scss";
 
 // Страница каталога
@@ -46,7 +41,6 @@
 @import "./blocks/product-card-feature.scss";
 @import "./blocks/product-show-more.scss";
 @import "./blocks/additional-products.scss";
-@import "./blocks/additional-products-feature.scss";
 @import "./blocks/gift.scss";
 
 // Footer
