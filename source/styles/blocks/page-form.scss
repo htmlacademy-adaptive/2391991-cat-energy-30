@@ -248,6 +248,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .page-form__label {
@@ -256,6 +257,14 @@
 
 .page-form__input {
   flex-grow: 1;
+
+  &:focus + .page-form__icon {
+    color: #68b738;
+  }
+
+  &:focus:invalid + .page-form__icon {
+    color: #FF8282;
+  }
 
   &::placeholder {
     color: inherit;

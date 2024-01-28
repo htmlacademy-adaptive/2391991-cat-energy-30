@@ -15,6 +15,20 @@
     padding-right: 49px;
   }
 
+  &:hover {
+    border-color: #CDCDCD;
+  }
+
+  &:focus {
+    border-color: $text-color-secondary;
+    outline: 2px solid $text-color-secondary;
+  }
+
+  &:focus:invalid {
+    border-color: #FF8282;
+    outline: 2px solid #FF8282;
+  }
+
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: normal;
