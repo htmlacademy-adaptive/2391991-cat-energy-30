@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Cat Energy</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preload" href="fonts/lato-regular.woff2" as="font">
+  <link rel="preload" href="fonts/oswald-regular.woff2" as="font">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/apple-favicon.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles/styles.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -61,6 +63,13 @@
           <h1 class="hero__title hero__title--page-title">Функциональное <br>питание для котов</h1>
           <p class="hero__description hero__description--page-description">Занялся собой? Займись котом!</p>
           <picture class="hero__picture">
+            <source type="image/webp" media="(min-width: 1300px)"
+              srcset="images/hero-image-desktop@1x.webp 1x, images/hero-image-desktop@2x.webp 2x" width="552"
+              height="499">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="images/hero-image-tablet@1x.webp 1x, images/hero-image-tablet@2x.webp 2x" width="709"
+              height="609">
+            <source type="image/webp" srcset="images/hero-image-mobile@1x.webp 1x, images/hero-image-mobile@2x.webp 2x">
             <source type="image/png" media="(min-width: 1300px)"
               srcset="images/hero-image-desktop@1x.png 1x, images/hero-image-desktop@2x.png 2x" width="552"
               height="499">
@@ -144,6 +153,14 @@
           <div class="example__slider-images slider__images">
             <div class="slider__images-wrapper slider__images-wrapper--before" style="width: 50%">
               <picture class="slider__picture">
+                <source type="image/webp" media="(min-width: 1300px)"
+                  srcset="images/example-image/cat-before-desktop@1x.webp 1x, images/example-image/cat-before-desktop@2x.webp 2x"
+                  width="560" height="512">
+                <source type="image/webp" media="(min-width: 768px)"
+                  srcset="images/example-image/cat-before-tablet@1x.webp 1x, images/example-image/cat-before-tablet@2x.webp 2x"
+                  width="560" height="512">
+                <source type="image/webp"
+                  srcset="images/example-image/cat-before-mobile@1x.webp 1x, images/example-image/cat-before-mobile@2x.webp 2x">
                 <source type="image/png" media="(min-width: 1300px)"
                   srcset="images/example-image/cat-before-desktop@1x.png 1x, images/example-image/cat-before-desktop@2x.png 2x"
                   width="560" height="512">
@@ -157,6 +174,14 @@
             </div>
             <div class="slider__images-wrapper slider__images-wrapper--after">
               <picture class="slider__picture">
+                <source type="image/webp" media="(min-width: 1300px)"
+                  srcset="images/example-image/cat-after-desktop@1x.webp 1x, images/example-image/cat-after-desktop@2x.webp 2x"
+                  width="560" height="512">
+                <source type="image/webp" media="(min-width: 768px)"
+                  srcset="images/example-image/cat-after-tablet@1x.webp 1x, images/example-image/cat-after-tablet@2x.webp 2x"
+                  width="560" height="512">
+                <source type="image/webp"
+                  srcset="images/example-image/cat-after-mobile@1x.webp 1x, images/example-image/cat-after-mobile@2x.webp 2x">
                 <source type="image/png" media="(min-width: 1300px)"
                   srcset="images/example-image/cat-after-desktop@1x.png 1x, images/example-image/cat-after-desktop@2x.png 2x"
                   width="560" height="512">
@@ -195,6 +220,11 @@
         </iframe>
 
         <picture>
+          <source type="image/webp" media="(min-width: 1300px)"
+            srcset="images/location-desktop@1x.webp 1x, images/location-desktop@2x.webp 2x" width="1440" height="400">
+          <source type="image/webp" media="(min-width: 768px)"
+            srcset="images/location-tablet@1x.webp 1x, images/location-tablet@2x.webp 2x" width="768" height="400">
+          <source type="image/webp" srcset="images/location-mobile@1x.webp 1x, images/location-mobile@2x.webp 2x">
           <source type="image/jpeg" media="(min-width: 1300px)"
             srcset="images/location-desktop@1x.jpg 1x, images/location-desktop@2x.jpg 2x" width="1440" height="400">
           <source type="image/jpeg" media="(min-width: 768px)"
