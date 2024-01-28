@@ -10,6 +10,18 @@
     --checkbox-tick-height: 8px;
     min-height: var(--checkbox-height);
 
+    &:hover::before {
+        border-color: #bababa;
+      }
+    
+      &:active {
+        opacity: 0.3;
+      }
+    
+      &:disabled {
+        opacity: 0.3;
+      }
+
     &::before {
         content: "";
         position: absolute;

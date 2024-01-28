@@ -19,6 +19,10 @@
     border-color: #CDCDCD;
   }
 
+  &:active {
+    opacity: 0.3;
+  }
+
   &:focus {
     border-color: $text-color-secondary;
     outline: 2px solid $text-color-secondary;

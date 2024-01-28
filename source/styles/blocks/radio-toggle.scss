@@ -8,6 +8,17 @@
   --radio-inner-diameter: 13px;
   min-height: var(--radio-outer-diameter);
 
+  &:hover::before {
+    border-color: #bababa;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
 
   &::before,
   &::after {
