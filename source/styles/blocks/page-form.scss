@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  padding-bottom: 24px;
+  padding-bottom: 22px;
 
   @media (min-width: $tablet-width) {
     padding-bottom: 0;
@@ -39,7 +39,7 @@
   }
 
   &--types-program {
-    padding-bottom: 19px;
+    padding-bottom: 22px;
     padding-top: 22px;
 
     @media (min-width: $tablet-width) {
@@ -56,7 +56,7 @@
 
   &--contact-info {
     width: 100%;
-    margin-top: 25px;
+    margin-top: 28px;
 
     @media (min-width: $tablet-width) {
       margin-top: 0;
@@ -74,7 +74,7 @@
   }
 
   &--additionally-products {
-    padding-bottom: 34px;
+    padding-bottom: 36px;
     width: 100%;
 
     @media (min-width: $tablet-width) {
@@ -105,7 +105,7 @@
 }
 
 .page-form__section--contact-info .page-form__title {
-  margin-bottom: 35px;
+  margin-bottom: 33px;
   width: 187px;
 
   @media (min-width: $tablet-width) {
@@ -127,7 +127,7 @@
 }
 
 .page-form__section--additionally-products .page-form__title {
-  margin-bottom: 34px;
+  margin-bottom: 37px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 57px;
@@ -228,7 +228,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14px;
+  gap: 11px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -301,18 +301,23 @@
 }
 
 .page-form__textarea-input {
-  font-family: $primary-font;
-  color: $text-color-secondary;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
+  // font-family: $primary-font;
+  // color: $text-color-secondary;
+  // font-size: 16px;
+  // line-height: 18px;
+  // text-transform: uppercase;
+
+  // display: block;
+  // box-sizing: border-box;
+  // padding: 13px 13px;
+  // width: 100%;
+  // min-height: 150px;
+  // border: 1px solid #e7e7e7;
 
   display: block;
-  box-sizing: border-box;
-  padding: 13px 14px;
   width: 100%;
   min-height: 150px;
-  border: 1px solid #e7e7e7;
+  resize: vertical;
 
   &::placeholder {
     color: inherit;
