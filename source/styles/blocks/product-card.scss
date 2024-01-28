@@ -1,7 +1,7 @@
 .product-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 5px 20px 23px;
+  padding: 7px 20px 23px;
   border-bottom: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
@@ -75,7 +75,7 @@
 
   width: 60%;
   margin-top: 10px;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
