@@ -23,25 +23,3 @@
     row-gap: 63px;
   }
 }
-
-
-// Удалить???
-.catalog-product__item {
-  margin-left: auto;
-  margin-right: auto;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.catalog-product__show-more {
-  margin-left: auto;
-  margin-right: auto;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}

@@ -35,7 +35,7 @@
     width: var(--radio-outer-diameter);
     height: var(--radio-outer-diameter);
     border: 1px solid #cdcdcd;
-    background-color: #ffffff;
+    background-color: $background-color-primary;
   }
 
   &::after {
@@ -43,7 +43,7 @@
     left: calc((var(--radio-outer-diameter) - var(--radio-inner-diameter))/2);
     width: var(--radio-inner-diameter);
     height: var(--radio-inner-diameter);
-    background-color: #68b738;
+    background-color: $color-secondary;
   }
 
   @media (min-width: $tablet-width) {
