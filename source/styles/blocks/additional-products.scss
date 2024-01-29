@@ -5,7 +5,7 @@
 
   @media (min-width: $tablet-width) {
     padding-top: 0;
-    padding-bottom: 75px;
+    padding-bottom: 73px;
   }
 
   @media (min-width: $desktop-width) {
@@ -99,7 +99,7 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 250px;
-    padding: 25px 38px 26px;
+    padding: 25px 38px 28px;
 
     margin-left: -38px;
     margin-right: -38px;
@@ -157,6 +157,7 @@
     line-height: 20px;
 
     justify-content: flex-end;
+    margin-top: 4px;
     margin-bottom: 21px;
   }
 
@@ -175,6 +176,12 @@
 }
 
 .additional-products__feature-value {
+  @media (min-width: $tablet-width) {
+    width: 17%;
+    margin-top: -2px;
+    margin-left: 51px;
+  }
+
   @media (min-width: $desktop-width) {
     margin-left: 0;
     width: 42px;
