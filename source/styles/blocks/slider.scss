@@ -70,7 +70,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -147,6 +148,20 @@
 
     &::after {
       top: 247px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 55px;
+    left: 278px;
+    height: 512px;
+
+    &::before {
+      left: -16px;
+    }
+
+    &::after {
+      left: -7px;
     }
   }
 }

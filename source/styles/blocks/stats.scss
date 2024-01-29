@@ -9,6 +9,7 @@
 
   @media (min-width: $desktop-width) {
     gap: 42px;
+    justify-content: flex-start;
   }
 }
 
@@ -22,6 +23,11 @@
 
   @media (min-width: $tablet-width) {
     padding: 15px 30px 20px;
+    min-width: 162px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 15px 30px 18px;
     min-width: 162px;
   }
 }

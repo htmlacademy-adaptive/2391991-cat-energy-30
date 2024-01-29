@@ -17,6 +17,10 @@
     width: 25%;
     justify-content: flex-end;
   }
+
+  @media (min-width: $desktop-width) {
+    justify-content: center;
+  }
 }
 
 .social__link {
