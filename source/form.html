@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Название проекта</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="favicons/apple-favicon.png" />
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Подбор программы Cat Energy</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preload" href="fonts/lato-regular.woff2" as="font">
+    <link rel="preload" href="fonts/oswald-regular.woff2" as="font">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/apple-favicon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="scripts/index.js" defer></script>
 </head>
 
@@ -206,6 +208,14 @@
                 </iframe>
 
                 <picture>
+                    <source type="image/webp" media="(min-width: 1300px)"
+                        srcset="images/location-desktop@1x.webp 1x, images/location-desktop@2x.webp 2x" width="1440"
+                        height="400">
+                    <source type="image/webp" media="(min-width: 768px)"
+                        srcset="images/location-tablet@1x.webp 1x, images/location-tablet@2x.webp 2x" width="768"
+                        height="400">
+                    <source type="image/webp"
+                        srcset="images/location-mobile@1x.webp 1x, images/location-mobile@2x.webp 2x">
                     <source type="image/jpeg" media="(min-width: 1300px)"
                         srcset="images/location-desktop@1x.jpg 1x, images/location-desktop@2x.jpg 2x" width="1440"
                         height="400">
@@ -230,7 +240,7 @@
                 <li class="social__item">
                     <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
                         <span class="visually-hidden">Мы в Вконтакте</span>
-                        <svg class="social__icon" width="28" height="22">
+                        <svg class="social__icon" width="30" height="20">
                             <use href="images/icons/stack.svg#icon-vk"></use>
                         </svg>
                     </a>
@@ -238,7 +248,7 @@
                 <li class="social__item">
                     <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
                         <span class="visually-hidden">Мы в Ютубе</span>
-                        <svg class="social__icon" width="28" height="22">
+                        <svg class="social__icon" width="30" height="20">
                             <use href="images/icons/stack.svg#icon-yt"></use>
                         </svg>
                     </a>
@@ -246,7 +256,7 @@
                 <li class="social__item">
                     <a class="social__link social__link--telegram" href="https://htmlacademy.t.me/">
                         <span class="visually-hidden">Мы в Телеграме</span>
-                        <svg class="social__icon" width="28" height="22">
+                        <svg class="social__icon" width="30" height="20">
                             <use href="images/icons/stack.svg#icon-tg"></use>
                         </svg>
                     </a>

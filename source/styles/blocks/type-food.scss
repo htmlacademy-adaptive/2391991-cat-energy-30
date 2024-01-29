@@ -13,7 +13,7 @@
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(2, 570px);
     column-gap: 80px;
-    padding-top: 80px;
+    padding-top: 77px;
     padding-bottom: 35px;
   }
 }
@@ -158,13 +158,14 @@
 
 
   @media (min-width: $tablet-width) {
-    margin-top: 6px;
+    margin-top: 9px;
+    margin-bottom: 24px;
     margin-left: 0;
     font-size: 36px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 75px;
+    margin-bottom: 71px;
     margin-left: 162px;
   }
 }
@@ -220,10 +221,10 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    top: 50%;
-    right: 0;
+    top: 55%;
+    right: -7px;
     transform: translateY(-50%);
-    width: 24px;
+    width: 30px;
     height: 11px;
     background-image: url("../../images/icons/stack.svg#icon-arrow");
     background-size: contain;

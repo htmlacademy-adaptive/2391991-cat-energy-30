@@ -6,7 +6,7 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
-    min-height: 630px;
+    min-height: 614px;
   }
 
   @media (min-width: $desktop-width) {
@@ -42,7 +42,7 @@
   background-color: $example-color;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(180deg, $background-color-primary 170px, $example-color 170px);
+    background-image: linear-gradient(180deg, $background-color-primary 150px, $example-color 150px);
   }
 
   @media (min-width: $desktop-width) {
@@ -54,7 +54,7 @@
   background-color: $example-color;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(180deg, $background-color-primary 170px, $example-color 170px);
+    background-image: linear-gradient(180deg, $background-color-primary 150px, $example-color 150px);
   }
 
   @media (min-width: $desktop-width) {
@@ -70,7 +70,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -147,6 +148,20 @@
 
     &::after {
       top: 247px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 55px;
+    left: 278px;
+    height: 512px;
+
+    &::before {
+      left: -16px;
+    }
+
+    &::after {
+      left: -7px;
     }
   }
 }

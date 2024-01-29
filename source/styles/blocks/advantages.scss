@@ -61,6 +61,13 @@
   font-size: 14px;
   line-height: 18px;
 
+  &::before,
+  &::after {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   &::before {
     content: "";
     top: 0;
@@ -114,22 +121,6 @@
     min-height: 118px;
   }
 }
-
-
-.advantages__item {
-  &::before {
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  &::after {
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
 
 .advantages__item--helpful {
   &::before {

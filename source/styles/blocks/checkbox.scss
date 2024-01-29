@@ -46,5 +46,13 @@
     border-left: 2px solid $color-secondary;
     border-bottom: 2px solid $color-secondary;
   }
+
+  @media (min-width: $tablet-width) {
+    --checkbox-width: 40px;
+    --checkbox-height: 40px;
+    --checkbox-tick-width: 18px;
+    --checkbox-tick-height: 9px;
+    padding-left: 59px;
+  }
 }
 

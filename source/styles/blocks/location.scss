@@ -14,6 +14,7 @@
     left: calc(50% - var(--content-width-desktop)/2);
     top: 95px;
     width: 565px;
+    padding-left: 78px;
   }
 }
 
@@ -69,6 +70,6 @@
 
 .location__city {
   @media (min-width: $tablet-width) {
-    margin-top: 15px;
+    margin-top: 20px;
   }
 }
