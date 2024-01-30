@@ -16,10 +16,6 @@
     opacity: 0.3;
   }
 
-  &:disabled {
-    opacity: 0.3;
-  }
-
   &::before,
   &::after {
     position: absolute;
