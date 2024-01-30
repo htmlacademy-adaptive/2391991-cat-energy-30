@@ -30,3 +30,9 @@
   }
 }
 
+.main-footer__logo {
+  @media (min-width: $desktop-width) {
+    margin-right: 37px;
+  }
+}
+

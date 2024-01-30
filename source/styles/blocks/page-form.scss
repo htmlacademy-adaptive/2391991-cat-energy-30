@@ -175,6 +175,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 80px;
   }
 }
@@ -288,6 +289,17 @@
 .page-form__radio:checked + .page-form__label-radio::after,
 .page-form__checkbox:checked + .page-form__label-checkbox::after {
   content: "";
+}
+
+.page-form__radio:disabled + .page-form__label-radio,
+.page-form__checkbox:disabled + .page-form__label-checkbox {
+  opacity: 0.3;
+}
+
+.page-form__radio:focus + .page-form__label-radio,
+.page-form__checkbox:focus + .page-form__label-checkbox {
+  outline: 1PX dashed #444444;
+  outline-offset: 2PX;
 }
 
 .page-form__textarea-wrapper {
