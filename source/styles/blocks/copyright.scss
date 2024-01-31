@@ -9,12 +9,12 @@
   font-family: $text-font;
   color: $text-color-secondary;
 
-  &:hover {
-    color: $color-secondary;
+  &:hover .copyright__academy-icon,
+  &:focus .copyright__academy-icon {
+    color: #68b738;
   }
 
   &:active {
-    color: $color-secondary;
     opacity: 0.3;
   }
 
@@ -29,17 +29,9 @@
   }
 }
 
-.copyright + .copyright__academy-icon {
+.copyright__academy-icon {
   color: #666666;
   width: 27px;
   height: 34px;
-
-  &:hover {
-    color: $color-secondary;
-  }
-
-  &:active {
-    color: $color-secondary;
-    opacity: 0.3;
-  }
 }
+
